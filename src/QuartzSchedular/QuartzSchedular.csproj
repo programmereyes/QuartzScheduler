@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-QuartzSchedular-4B1DEB16-9F9D-4609-AD3D-7D67842D79A6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+    <PackageReference Include="Quartz" Version="3.1.0" />
+    <PackageReference Include="Quartz.Serialization.Json" Version="3.1.0" />
+  </ItemGroup>
+</Project>
